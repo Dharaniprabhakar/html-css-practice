@@ -1,0 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.external-demo {
+  color: white;
+  background-color: teal;
+  padding: 10px;
+}

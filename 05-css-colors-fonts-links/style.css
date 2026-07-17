@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.styled-text {
+  color: darkblue;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+.color-named {
+  color: tomato;
+}
+
+.color-hex {
+  color: #2e8b57;
+}
+
+.color-rgb {
+  color: rgb(30, 144, 255);
+}
+
+.box {
+  border: 2px solid black;
+  padding: 15px;
+  margin: 20px;
+}
+
+.italic-center {
+  font-style: italic;
+  text-align: center;
+}

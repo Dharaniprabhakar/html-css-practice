@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS - Inline, Internal, External</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Internal CSS - only applies within this page */
+    .internal-demo {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Inline CSS</h2>
+  <h1 style="color: blue;">This heading is blue (styled with the style attribute)</h1>
+
+  <h2>Internal CSS</h2>
+  <p class="internal-demo">This paragraph is styled by the &lt;style&gt; block in the head section.</p>
+
+  <h2>External CSS</h2>
+  <p class="external-demo">This paragraph is styled by style.css, linked via the &lt;link&gt; tag.</p>
+
+</body>
+</html>

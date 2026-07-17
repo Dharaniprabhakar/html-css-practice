@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.basic-table,
+.styled-table,
+.padded-table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.styled-table,
+.styled-table th,
+.styled-table td {
+  border: 2px dotted black;
+  border-radius: 10px;
+}
+
+.styled-table th {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.padded-table th,
+.padded-table td {
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}

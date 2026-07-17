@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.styled-link:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.styled-link:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.styled-link:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.styled-link:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

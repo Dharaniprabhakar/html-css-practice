@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.float-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}

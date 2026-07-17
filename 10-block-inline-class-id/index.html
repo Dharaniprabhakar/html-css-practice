@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Block/Inline, Class and ID</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Block-level elements (p, div)</h2>
+  <div class="demo-block">This is a div - it always starts on a new line and takes up the full width available.</div>
+  <p class="demo-block">This is a paragraph - also block-level, notice the space before/after it.</p>
+
+  <h2>Inline elements</h2>
+  <p>An inline element like <span class="gh">this span</span> does not start on a new line and only takes up as much width as its content needs.</p>
+
+  <h2>Class attribute</h2>
+  <div class="city">
+    <h2>London</h2>
+    <p>London is the capital of England.</p>
+  </div>
+  <div class="city">
+    <h2>Paris</h2>
+    <p>Paris is the <span class="gh">capital of France.</span></p>
+  </div>
+
+  <h2>ID attribute</h2>
+  <h1 id="myHeader">Header1</h1>
+
+  <h2>Class vs ID</h2>
+  <p>Class ("city" above) is reused on multiple elements. ID ("myHeader" above) must be unique on the page.</p>
+
+  <h2>Bookmark using ID</h2>
+  <p><a href="#c2">Jump to chapter 2</a></p>
+  <div class="spacer"></div>
+  <h2 id="c2">Heading of chapter 2</h2>
+  <p>You landed here by clicking the chapter 2 link above, using its id as the href target.</p>
+
+</body>
+</html>
